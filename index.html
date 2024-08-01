@@ -11,10 +11,10 @@
     <header>
         <nav class="nav-bar">
             <div class="container">
-                <a href="#about" hx-get="about.html" hx-trigger="click" hx-target="#main-content">01. About</a>
-                <a href="#projects" hx-get="projects.html" hx-trigger="click" hx-target="#main-content">02. Projects</a>
-                <a href="#contact" hx-get="contact.html" hx-trigger="click" hx-target="#main-content">03. Contact</a>
-                <button href="#resume" hx-get="resume.html" hx-trigger="click" hx-target="#main-content" class="resume-btn">Resume</button>
+                <a href="#about" hx-get="/about.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true">01. About</a>
+                <a href="#projects" hx-get="/projects.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true">02. Projects</a>
+                <a href="#contact" hx-get="/contact.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true">03. Contact</a>
+                <button href="#resume" hx-get="/resume.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true" class="resume-btn">Resume</button>
             </div>
         </nav>
         <div class="container">
