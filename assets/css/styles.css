@@ -38,6 +38,7 @@ header p {
     margin-bottom: 20px;
     position: sticky;
     top: 0%;
+    overflow: hidden;
 }
 
 .nav-bar .container {
@@ -48,13 +49,22 @@ header p {
 .nav-bar a {
     color: #8892b0;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 20px;
     font-size: 1em;
     transition: color 0.3s;
 }
 
 .nav-bar a:hover {
     color: #64ffda;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bar a {
+        overflow: hidden;
+        float: none;
+        margin: 0px;
+    }
+    
 }
 
 /* Main Content Styles */
