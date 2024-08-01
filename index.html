@@ -9,20 +9,20 @@
 </head>
 <body>
     <header>
+        <nav class="nav-bar">
+            <div class="container">
+                <a href="#about" hx-get="about.html" hx-trigger="click" hx-target="#main-content">01. About</a>
+                <a href="#projects" hx-get="projects.html" hx-trigger="click" hx-target="#main-content">02. Projects</a>
+                <a href="#contact" hx-get="contact.html" hx-trigger="click" hx-target="#main-content">03. Contact</a>
+                <a href="resume.html" class="resume-btn">Resume</a>
+            </div>
+        </nav>
         <div class="container">
             <p>Hi, my name is</p>
             <h1>Steven Juarez.</h1>
             <p>I build things for the web.</p>
         </div>
     </header>
-    <nav class="nav-bar">
-        <div class="container">
-            <a href="#about" hx-get="about.html" hx-trigger="click" hx-target="#main-content">01. About</a>
-            <a href="#projects" hx-get="projects.html" hx-trigger="click" hx-target="#main-content">02. Projects</a>
-            <a href="#contact" hx-get="contact.html" hx-trigger="click" hx-target="#main-content">03. Contact</a>
-            <a href="resume.html" class="resume-btn">Resume</a>
-        </div>
-    </nav>
     <main id="main-content" class="container">
         <section id="about">
             <h2>About Me</h2>
