@@ -126,7 +126,7 @@ button:hover, .btn:hover {
 .resume-btn {
     border: 1px solid #64ffda;
     padding: 10px 20px;
-    color: aliceblue;
+    color: rgb(220, 241, 81);
     font-size: 1em;
     margin-left: 15px;
     text-decoration: none;
@@ -135,5 +135,10 @@ button:hover, .btn:hover {
 
 .resume-btn:hover {
     background-color: #64ffda;
-    color: #000000;
+    color: #4933b4;
+}
+
+/* Contact Email Styles */
+.contact-email {
+    color: aquamarine;
 }
