@@ -37,6 +37,8 @@ header p {
 .nav-bar {
     background-color: #0a192f;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
 }
 
 .nav-bar .container {
