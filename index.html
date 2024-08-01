@@ -11,10 +11,17 @@
     <header>
         <nav class="nav-bar">
             <div class="container">
+<<<<<<< HEAD
                 <a href="#about" hx-get="/about.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true">01. About</a>
                 <a href="#projects" hx-get="/projects.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true">02. Projects</a>
                 <a href="#contact" hx-get="/contact.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true">03. Contact</a>
                 <button href="#resume" hx-get="/resume.html" hx-trigger="click" hx-target="#main-content" hx-push-url="true" class="resume-btn">Resume</button>
+=======
+                <a href="#" hx-get="/about.html" hx-trigger="click" hx-target="#main-content">01. About</a>
+                <a href="#" hx-get="/projects.html" hx-trigger="click" hx-target="#main-content">02. Projects</a>
+                <a href="#" hx-get="/contact.html" hx-trigger="click" hx-target="#main-content">03. Contact</a>
+                <button href="#" hx-get="/resume.html" hx-trigger="click" hx-target="#main-content" class="resume-btn">Resume</button>
+>>>>>>> d40369c (updated contact email link and resume btn styles)
             </div>
         </nav>
         <div class="container">
@@ -23,7 +30,7 @@
             <p>I build things for the web.</p>
         </div>
     </header>
-    <main id="main-content" class="container">
+    <main hx-boost="true" id="main-content" class="container">
     </main>
     <footer>
         <div class="container">
