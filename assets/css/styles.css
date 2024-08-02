@@ -31,6 +31,14 @@ body {
 header {
     text-align: center;
     /* position: relative; */
+    opacity: 100%;
+    z-index: 1;
+    animation: headerScroll ease-out;
+    animation-timeline: scroll();
+}
+
+@keyframes headerScroll {
+    to {opacity: 0%;}
 }
 
 header h1 {
@@ -55,6 +63,8 @@ header p {
     position: sticky;
     top: 0%;
     height: 5vh;
+    opacity: 100%;
+    z-index: 2;
 }
 
 @keyframes navGradient {

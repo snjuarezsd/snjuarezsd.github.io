@@ -8,16 +8,16 @@
     <script src="https://unpkg.com/htmx.org@2.0.1" integrity="sha384-QWGpdj554B4ETpJJC9z+ZHJcA/i59TyjxEPXiiUgN2WmTyV5OEZWCD6gQhgkdpB/" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="container">
-                <a href="#about" hx-get="about.html" hx-trigger="click" hx-target="#main-content">About</a>
-                <a href="#projects" hx-get="projects.html" hx-trigger="click" hx-target="#main-content">Projects</a>
-                <a href="#contact" hx-get="contact.html" hx-trigger="click" hx-target="#main-content">Contact</a>
-                <button href="#resume" hx-get="resume.html" hx-trigger="click" hx-target="#main-content" class="resume-btn">Resume</button>
-            </div>
-        </nav>
+    <nav class="nav-bar">
         <div class="container">
+            <a href="#about" hx-get="about.html" hx-trigger="click" hx-target="#main-content">About</a>
+            <a href="#projects" hx-get="projects.html" hx-trigger="click" hx-target="#main-content">Projects</a>
+            <a href="#contact" hx-get="contact.html" hx-trigger="click" hx-target="#main-content">Contact</a>
+            <button href="#resume" hx-get="resume.html" hx-trigger="click" hx-target="#main-content" class="resume-btn">Resume</button>
+        </div>
+    </nav>
+    <header>
+        <div id="header" class="container">
             <p>Hi, my name is</p>
             <h1>Steven Juarez.</h1>
             <p>I build things for the web.</p>
