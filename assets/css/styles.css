@@ -87,7 +87,7 @@ header p {
 }
 
 .nav-bar a:focus {
-    color: rgb(234, 152, 11);
+    color: #64ffda;
 }
 
 @media screen and (max-width: 700px) {
@@ -180,5 +180,5 @@ button:hover, .btn:hover {
 
 /* Contact Email Styles */
 .contact-email {
-    color: rgb(234, 152, 11);
+    color: #64ffda;
 }
