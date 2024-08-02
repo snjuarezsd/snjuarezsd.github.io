@@ -61,7 +61,8 @@ header p {
     /* background: #2d3d49; */
     padding: 20px 0 20px 0;
     position: sticky;
-    top: 0;
+    top: -1px;
+    margin-top: -10px;
     height: 5vh;
     opacity: 100%;
     z-index: 2;
