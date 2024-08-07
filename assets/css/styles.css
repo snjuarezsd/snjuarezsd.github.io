@@ -112,9 +112,9 @@ header p {
 }
 
 @media screen and (max-width: 700px) {
-    .nav-bar a {
-        font-size: smaller;
-        margin: 10px 1rem 0 1rem;
+    .nav-bar a {     
+        font-size: 2.5vw;
+        margin: 14px 1rem 0 .7rem;
     }
     
 }
