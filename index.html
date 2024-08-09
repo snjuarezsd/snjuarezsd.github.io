@@ -8,26 +8,28 @@
     <script src="https://unpkg.com/htmx.org@2.0.1" integrity="sha384-QWGpdj554B4ETpJJC9z+ZHJcA/i59TyjxEPXiiUgN2WmTyV5OEZWCD6gQhgkdpB/" crossorigin="anonymous"></script>
 </head>
 <body id="body">
-    <nav class="nav-bar" hx-boost="true">
-        <div class="container">
-            <a href="/">Home</a>
-            <a href="/pages/about.html" hx-target="#main-content" hx-replace-url="false">About</a>
-            <a href="/pages/projects.html" hx-target="#main-content" hx-replace-url="false">Projects</a>
-            <a href="/pages/contact.html" hx-target="#main-content" hx-replace-url="false">Contact</a>
-            <button hx-get="/pages/resume.html" hx-target="#main-content" hx-replace-url="false" class="resume-btn">Resume</button>
-        </div>
-    </nav>
     <header>
+        <nav class="nav-bar" hx-boost="true">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/pages/about.html" hx-target="#main-content" hx-replace-url="false" hx-swap="transition:true">About</a></li>
+                    <li><a href="/pages/projects.html" hx-target="#main-content" hx-replace-url="false" hx-swap="transition:true">Projects</a></li>
+                    <li><a href="/pages/contact.html" hx-target="#main-content" hx-replace-url="false" hx-swap="transition:true">Contact</a></li>
+                    <li><a href="/pages/resume.html" hx-target="#main-content" hx-replace-url="false" class="resume-btn" hx-swap="transition:true">Resume</a></li>
+                </ul>    
+            </div>
+        </nav>
+    </header>
+    <main id="main-content" class="container sample-transition">
         <div id="header" class="container">
             <p>Hi, my name is</p>
-            <h1>Steven Juarez.</h1>
-            <p>I build things for the web.</p>
+            <h2>Steven Juarez.</h2>
+            <p>I build things for web | mobile | desktop.</p>
         </div>
-    </header>
-    <main id="main-content" class="container">
     </main>
     <footer>
-        <div class="container">
+        <div class="wrapper">
             <p>&copy; 2024 Steven Juarez. All rights reserved.</p>
         </div>
     </footer>
