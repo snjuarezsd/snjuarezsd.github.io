@@ -159,7 +159,7 @@ li {
 
 /* Main Content Styles */
 main {
-    padding: 50px 0;
+    padding: 50px 0 50px 0;
 }
 
 h1 {
@@ -171,7 +171,7 @@ h1 {
 h2 {
     font-size: 2.5em;
     color: #e7e575;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 p {
@@ -202,23 +202,9 @@ footer p {
     text-align: center;
 }
 
-/* Button Styles */
-button, .btn {
-    background-color: transparent;
-    border: 1px solid #64ffda;
-    color: #64ffda;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-button:hover, .btn:hover {
-    background-color: #64ffda;
-    color: #0a192f;
-}
-
 /* Resume Button Styles */
 .resume-btn {
+    display: inline;
     border: 1px solid #64ffda;
     padding: 10px 20px 10px 20px;
     color: rgb(220, 241, 81);
@@ -226,17 +212,17 @@ button:hover, .btn:hover {
     font-size: 1em;
     text-decoration: none;
     position: relative;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 1s, color 1s;
 }
 
-.resume-btn:hover {
+.resume-btn.resume-btn:hover {
     background-color: #64ffda;
     color: #4933b4;
 }
 
-.resume-btn:focus {
-    background-color: #64ffda;
-    color: #4933b4;
+.resume-btn.resume-btn:focus {
+    background-color: #8f1fa9;
+    color: #64ffda;
 }
 
 @media screen and (max-width: 900px) {
